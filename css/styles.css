@@ -189,6 +189,9 @@ a{
     padding-top: 190px;
     padding-bottom: 190px;
     text-align: center;
+} 
+
+.wrapper{
     max-width: 1440px;
     height: 600px;
     background-image: linear-gradient (rgba(46, 47, 66, 0.7)), 
@@ -197,7 +200,6 @@ a{
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .hero-title{
     margin-left: auto;
@@ -421,10 +423,16 @@ a{
 .icon-list {
     width: 40px;
     height: 40px;
+    margin-bottom: 32px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     border-radius: 50%;
-    fill: var(--main-color);
+    fill: #FFFFFF;
+}
+
+.icon-list:hover, .icon-list:focus{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 /* Team end */
 
