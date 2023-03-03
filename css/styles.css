@@ -190,6 +190,8 @@ a{
     padding-top: 190px;
     padding-bottom: 190px;
     text-align: center;
+    background-color: var(--main-color);
+    margin: auto;
 
     max-width: 1440px;
     height: 600px;
@@ -480,16 +482,16 @@ a{
     border-radius: 4px;
 }
 
-.customers-link:hover, .customers-link:focus{
+.customers-link:is(:hover, :focus) {
     border: 1px solid #404BBF;
+}
+
+.customers-link:is(:hover, :focus) .customers-svg{
+    fill: #404BBF;
 }
 .customers-svg {
     fill: var(--customers-color);
 } 
-
-.customers-svg:hover, .customers-svg:focus{
-    fill: #404BBF;
-}
 
 /* Customers end */
 
@@ -656,6 +658,10 @@ a{
 
 .cards-menu{
     list-style: none;   
+}
+
+.cards-menu:hover, .cards-menu:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .cards-link{
