@@ -189,17 +189,15 @@ a{
     padding-top: 190px;
     padding-bottom: 190px;
     text-align: center;
-} 
 
-.wrapper{
     max-width: 1440px;
     height: 600px;
-    background-image: linear-gradient (rgba(46, 47, 66, 0.7)), 
-    (rgba(46, 47, 66, 0.7)) url(../images/hero.jpg);
+    background-image: linear-gradient (rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} 
 
 .hero-title{
     margin-left: auto;
